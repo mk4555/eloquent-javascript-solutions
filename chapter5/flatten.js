@@ -1,7 +1,7 @@
 function flatten(array) {
   let arr = []
-  arr = array.reduce((total, amount) => {
-    return total.concat(amount)
+  arr = array.reduce((final, current) => {
+    return final.concat(current)
   }, [])
   return arr
 }
